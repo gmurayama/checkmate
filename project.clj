@@ -5,5 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]]
   :main ^:skip-aot checkmate.core
-  :target-path "target/%s"
+  :target-path "api/target/%s"
+  :source-paths ["api/src"]
+  :test-paths ["api/test"]
+  :resource-paths ["api/resource"]
   :profiles {:uberjar {:aot :all}})

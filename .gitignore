@@ -1,12 +1,12 @@
-/target
-/classes
-/checkouts
+/api/target
+/api/classes
+/api/checkouts
 profiles.clj
 pom.xml
 pom.xml.asc
 *.jar
 *.class
 /.lein-*
-/.nrepl-port
+/api/.nrepl-port
 .hgignore
 .hg/
