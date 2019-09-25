@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": ["client"],
+  "scripts": {
+    "start": "cd client && react-scripts start",
+    "build": "cd client && react-scripts build",
+    "test": "cd client && react-scripts test --env=jsdom"
+  }
+}
